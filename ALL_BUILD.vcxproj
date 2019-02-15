@@ -1,0 +1,869 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4CF21832-47C6-33C0-8252-CF66E0A7A932}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/is40701.ITEC/Desktop/The-Modern-Cpp-Challenge-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/is40701.ITEC/Desktop/The-Modern-Cpp-Challenge-master -BC:/Users/is40701.ITEC/Desktop/The-Modern-Cpp-Challenge-master/build --check-stamp-file C:/Users/is40701.ITEC/Desktop/The-Modern-Cpp-Challenge-master/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/is40701.ITEC/Desktop/The-Modern-Cpp-Challenge-master/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.14\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\CMakeLists.txt;C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\CMakeFiles\3.14.0-rc1\CMakeCCompiler.cmake;C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\CMakeFiles\3.14.0-rc1\CMakeCXXCompiler.cmake;C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\CMakeFiles\3.14.0-rc1\CMakeRCCompiler.cmake;C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\CMakeFiles\3.14.0-rc1\CMakeSystem.cmake;C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\CMakeFiles\feature_tests.c;C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\CMakeFiles\feature_tests.cxx;C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/is40701.ITEC/Desktop/The-Modern-Cpp-Challenge-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/is40701.ITEC/Desktop/The-Modern-Cpp-Challenge-master -BC:/Users/is40701.ITEC/Desktop/The-Modern-Cpp-Challenge-master/build --check-stamp-file C:/Users/is40701.ITEC/Desktop/The-Modern-Cpp-Challenge-master/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/is40701.ITEC/Desktop/The-Modern-Cpp-Challenge-master/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.14\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\CMakeLists.txt;C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\CMakeFiles\3.14.0-rc1\CMakeCCompiler.cmake;C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\CMakeFiles\3.14.0-rc1\CMakeCXXCompiler.cmake;C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\CMakeFiles\3.14.0-rc1\CMakeRCCompiler.cmake;C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\CMakeFiles\3.14.0-rc1\CMakeSystem.cmake;C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\CMakeFiles\feature_tests.c;C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\CMakeFiles\feature_tests.cxx;C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/is40701.ITEC/Desktop/The-Modern-Cpp-Challenge-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/is40701.ITEC/Desktop/The-Modern-Cpp-Challenge-master -BC:/Users/is40701.ITEC/Desktop/The-Modern-Cpp-Challenge-master/build --check-stamp-file C:/Users/is40701.ITEC/Desktop/The-Modern-Cpp-Challenge-master/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/is40701.ITEC/Desktop/The-Modern-Cpp-Challenge-master/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.14\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\CMakeLists.txt;C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\CMakeFiles\3.14.0-rc1\CMakeCCompiler.cmake;C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\CMakeFiles\3.14.0-rc1\CMakeCXXCompiler.cmake;C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\CMakeFiles\3.14.0-rc1\CMakeRCCompiler.cmake;C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\CMakeFiles\3.14.0-rc1\CMakeSystem.cmake;C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\CMakeFiles\feature_tests.c;C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\CMakeFiles\feature_tests.cxx;C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/is40701.ITEC/Desktop/The-Modern-Cpp-Challenge-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/is40701.ITEC/Desktop/The-Modern-Cpp-Challenge-master -BC:/Users/is40701.ITEC/Desktop/The-Modern-Cpp-Challenge-master/build --check-stamp-file C:/Users/is40701.ITEC/Desktop/The-Modern-Cpp-Challenge-master/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/is40701.ITEC/Desktop/The-Modern-Cpp-Challenge-master/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.14\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\CMakeLists.txt;C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\CMakeFiles\3.14.0-rc1\CMakeCCompiler.cmake;C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\CMakeFiles\3.14.0-rc1\CMakeCXXCompiler.cmake;C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\CMakeFiles\3.14.0-rc1\CMakeRCCompiler.cmake;C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\CMakeFiles\3.14.0-rc1\CMakeSystem.cmake;C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\CMakeFiles\feature_tests.c;C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\CMakeFiles\feature_tests.cxx;C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\ZERO_CHECK.vcxproj">
+      <Project>{9C39BB36-1F43-3652-8D7B-20A9CADD282B}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\libs\PDF-Writer\FreeType\FreeType.vcxproj">
+      <Project>{00526131-BEFD-364D-B9F1-3BB35E60506D}</Project>
+      <Name>FreeType</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\libs\PDF-Writer\LibAesgm\LibAesgm.vcxproj">
+      <Project>{1A068BAA-4847-3667-9203-A6063250A9A8}</Project>
+      <Name>LibAesgm</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\libs\PDF-Writer\LibJpeg\LibJpeg.vcxproj">
+      <Project>{75AABA6E-4396-314D-AE46-368265304651}</Project>
+      <Name>LibJpeg</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\libs\PDF-Writer\LibPng\LibPng.vcxproj">
+      <Project>{10B86820-488F-341C-B245-C02A29954885}</Project>
+      <Name>LibPng</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\libs\PDF-Writer\LibTiff\LibTiff.vcxproj">
+      <Project>{87218DAD-C45B-3EEE-A71B-E2B6E765FE08}</Project>
+      <Name>LibTiff</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\libs\PDF-Writer\PDFWriter\PDFWriter.vcxproj">
+      <Project>{48D4C40A-6317-3837-BC27-590B42C3AB3B}</Project>
+      <Name>PDFWriter</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\libs\PNGWriter\PngWriter.vcxproj">
+      <Project>{3628ED30-E80A-32E5-BC08-FC032A932BCC}</Project>
+      <Name>PngWriter</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\libs\ZipLib\ZipLib.vcxproj">
+      <Project>{0E75783D-E4E4-3631-BBA9-57FE4E6EDB9A}</Project>
+      <Name>ZipLib</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\libs\PDF-Writer\ZLib\Zlib.vcxproj">
+      <Project>{793A55B9-8370-3E8A-8749-9A285E84B6D2}</Project>
+      <Name>Zlib</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\libs\ZipLib\extlibs\bzip2\bzip2.vcxproj">
+      <Project>{6181F0F4-0321-3CEB-AB49-03CD5BADC0C1}</Project>
+      <Name>bzip2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\libs\cryptopp\cryptlib.vcxproj">
+      <Project>{FD4923A9-F7F1-3D64-9E67-F6B18E0EE149}</Project>
+      <Name>cryptlib</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\libs\curlcpp\src\curlcpp.vcxproj">
+      <Project>{39095347-51FF-37FF-A8C7-2233CC4634F6}</Project>
+      <Name>curlcpp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\libs\curl\lib\libcurl.vcxproj">
+      <Project>{0268E3D5-BB87-3308-AF4F-C2B8060A7B88}</Project>
+      <Name>libcurl</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\libs\ZipLib\extlibs\lzma\lzma.vcxproj">
+      <Project>{340E22F7-203C-3AB4-98EB-A632CE950B72}</Project>
+      <Name>lzma</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter01\problem_01\problem_01.vcxproj">
+      <Project>{84F2D73D-50EB-345F-8715-10E47E2EB8B8}</Project>
+      <Name>problem_01</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter01\problem_02\problem_02.vcxproj">
+      <Project>{DE07B22D-0DC4-3C0B-ADBC-24FBAA2ED66C}</Project>
+      <Name>problem_02</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter01\problem_03\problem_03.vcxproj">
+      <Project>{2F2336D2-51A1-3D3D-BE21-5807485E900B}</Project>
+      <Name>problem_03</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter01\problem_04\problem_04.vcxproj">
+      <Project>{DE1FED39-A2B4-3765-B637-AB0D756BB578}</Project>
+      <Name>problem_04</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter01\problem_05\problem_05.vcxproj">
+      <Project>{E2622428-55AC-37CD-9C79-F985F7EE86B1}</Project>
+      <Name>problem_05</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter01\problem_06\problem_06.vcxproj">
+      <Project>{0C1C1790-26ED-363C-BD68-E34942BE1205}</Project>
+      <Name>problem_06</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter01\problem_07\problem_07.vcxproj">
+      <Project>{2CC704EC-59CC-3834-95B1-917E7D5455AE}</Project>
+      <Name>problem_07</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter01\problem_08\problem_08.vcxproj">
+      <Project>{178B292A-8AA0-3142-9D94-79B86FB00F0D}</Project>
+      <Name>problem_08</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter01\problem_09\problem_09.vcxproj">
+      <Project>{28E78335-B2CF-37CB-858F-AF36A255E07C}</Project>
+      <Name>problem_09</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter01\problem_10\problem_10.vcxproj">
+      <Project>{7DC1FE10-1084-34F3-AFFC-1E548BD613BE}</Project>
+      <Name>problem_10</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter01\problem_11\problem_11.vcxproj">
+      <Project>{D033570A-9676-3FFD-8B37-2406404715C1}</Project>
+      <Name>problem_11</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter01\problem_12\problem_12.vcxproj">
+      <Project>{7AACF7A7-469C-3BB5-A277-0B8246FE95C6}</Project>
+      <Name>problem_12</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter01\problem_13\problem_13.vcxproj">
+      <Project>{02C0E670-C265-34B2-9CD1-ACFB11A8853C}</Project>
+      <Name>problem_13</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter01\problem_14\problem_14.vcxproj">
+      <Project>{B22B5A15-4230-37FA-95D9-98F2D464550E}</Project>
+      <Name>problem_14</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter02\problem_15\problem_15.vcxproj">
+      <Project>{0AE07380-670B-384C-ABA9-48DC7321BE3D}</Project>
+      <Name>problem_15</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter02\problem_16\problem_16.vcxproj">
+      <Project>{684ECC32-A908-3B65-947A-7E3553793A50}</Project>
+      <Name>problem_16</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter02\problem_17\problem_17.vcxproj">
+      <Project>{3A5CFFD2-7D18-3100-9996-0A58C67EFF90}</Project>
+      <Name>problem_17</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter02\problem_18\problem_18.vcxproj">
+      <Project>{8936FBDA-5B76-3709-85BD-B7390A17917A}</Project>
+      <Name>problem_18</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter02\problem_19\problem_19.vcxproj">
+      <Project>{3776A5CE-1F04-3822-8629-6CD1CDD27D77}</Project>
+      <Name>problem_19</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter02\problem_20\problem_20.vcxproj">
+      <Project>{610DF053-1CB4-35CA-9A02-287D5ED54AC8}</Project>
+      <Name>problem_20</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter02\problem_21\problem_21.vcxproj">
+      <Project>{CB73F7CC-D3CD-355E-82CB-152A0E399D96}</Project>
+      <Name>problem_21</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter02\problem_22\problem_22.vcxproj">
+      <Project>{0296B975-CEB4-3CB9-ABBD-12028858084C}</Project>
+      <Name>problem_22</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter03\problem_23\problem_23.vcxproj">
+      <Project>{054C4963-4C90-3D70-B125-CA8299BD7992}</Project>
+      <Name>problem_23</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter03\problem_24\problem_24.vcxproj">
+      <Project>{F4C6B7F9-FF6C-3EC0-B9C5-1685C87B88DE}</Project>
+      <Name>problem_24</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter03\problem_25\problem_25.vcxproj">
+      <Project>{87B50FFA-9B0E-3913-9D7B-4D69943423CA}</Project>
+      <Name>problem_25</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter03\problem_26\problem_26.vcxproj">
+      <Project>{148939BD-B7AC-3F0A-8CA1-214D357311BF}</Project>
+      <Name>problem_26</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter03\problem_27\problem_27.vcxproj">
+      <Project>{A37DD41A-8C33-3A6E-B064-FAE001010E02}</Project>
+      <Name>problem_27</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter03\problem_28\problem_28.vcxproj">
+      <Project>{484B2F32-686F-3311-9388-9D7D92254C57}</Project>
+      <Name>problem_28</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter03\problem_29\problem_29.vcxproj">
+      <Project>{7201D0F4-1928-3C67-B871-A5390F070B10}</Project>
+      <Name>problem_29</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter03\problem_30\problem_30.vcxproj">
+      <Project>{0FBFAF0E-D84E-311B-ADDB-A50BD3ECD96C}</Project>
+      <Name>problem_30</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter03\problem_31\problem_31.vcxproj">
+      <Project>{6AAB1972-F5FB-3015-A24F-7D52DCB27974}</Project>
+      <Name>problem_31</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter04\problem_32\problem_32.vcxproj">
+      <Project>{325E946F-57FA-3201-97C9-452ED44ECC06}</Project>
+      <Name>problem_32</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter04\problem_33\problem_33.vcxproj">
+      <Project>{0486C67F-0545-3D8B-BCB6-4FFBE322B4C8}</Project>
+      <Name>problem_33</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter04\problem_34\problem_34.vcxproj">
+      <Project>{CF126CF8-92FA-390D-9E29-CC28B6C334DD}</Project>
+      <Name>problem_34</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter04\problem_35\problem_35.vcxproj">
+      <Project>{6C775F2C-2CD6-3749-BD14-DDF69BCC2784}</Project>
+      <Name>problem_35</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter04\problem_36\problem_36.vcxproj">
+      <Project>{40609649-FF66-3AF3-ADF9-9651BA389578}</Project>
+      <Name>problem_36</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter04\problem_37\problem_37.vcxproj">
+      <Project>{5B700097-E07E-38A5-9BF0-8D96ADA6346E}</Project>
+      <Name>problem_37</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter04\problem_38\problem_38.vcxproj">
+      <Project>{19BADECD-87FB-3313-9AAE-0B66CF27A204}</Project>
+      <Name>problem_38</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter05\problem_39\problem_39.vcxproj">
+      <Project>{BF12887A-7995-3FB0-BABA-C777BB24804F}</Project>
+      <Name>problem_39</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter05\problem_40\problem_40.vcxproj">
+      <Project>{B79A8E0D-529C-3380-AC6C-226D5B9F568E}</Project>
+      <Name>problem_40</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter05\problem_41\problem_41.vcxproj">
+      <Project>{DF0C37C3-524D-304E-92C1-54A98CBBA7AC}</Project>
+      <Name>problem_41</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter05\problem_42\problem_42.vcxproj">
+      <Project>{6E658ADB-8013-3B5F-868D-8107FBDF1C7D}</Project>
+      <Name>problem_42</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter05\problem_43\problem_43.vcxproj">
+      <Project>{ADED309A-0350-3172-ACB5-41FEAC837357}</Project>
+      <Name>problem_43</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter05\problem_44\problem_44.vcxproj">
+      <Project>{943B0A5C-40D6-3C52-9171-EF4768A3B6C5}</Project>
+      <Name>problem_44</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter06\problem_45\problem_45.vcxproj">
+      <Project>{4A3A57F6-7BCA-33D2-9F8F-297B2A4AD347}</Project>
+      <Name>problem_45</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter06\problem_46\problem_46.vcxproj">
+      <Project>{5779A5E9-963F-3A4D-BFD0-324668E09A1F}</Project>
+      <Name>problem_46</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter06\problem_47\problem_47.vcxproj">
+      <Project>{6D71EEDF-EEFF-36F7-8B13-58D47424B308}</Project>
+      <Name>problem_47</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter06\problem_48\problem_48.vcxproj">
+      <Project>{00B33CCB-87BE-3AEA-A97B-ADC9FBCC05CF}</Project>
+      <Name>problem_48</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter06\problem_49\problem_49.vcxproj">
+      <Project>{253D7848-3738-3F14-98A5-D95047B817D5}</Project>
+      <Name>problem_49</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter06\problem_50\problem_50.vcxproj">
+      <Project>{44930191-7E82-390D-B385-4BB386F657E2}</Project>
+      <Name>problem_50</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter06\problem_51\problem_51.vcxproj">
+      <Project>{9BAD57F3-DDA6-3C46-AD47-0E5356365081}</Project>
+      <Name>problem_51</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter06\problem_52\problem_52.vcxproj">
+      <Project>{8016C103-1780-33C5-BF10-9EEA2100670F}</Project>
+      <Name>problem_52</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter06\problem_53\problem_53.vcxproj">
+      <Project>{6330E441-9160-3A9A-B4BE-19C31D623A85}</Project>
+      <Name>problem_53</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter06\problem_54\problem_54.vcxproj">
+      <Project>{A3179251-C900-30E7-AC6E-AC7619EB2BDA}</Project>
+      <Name>problem_54</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter06\problem_55\problem_55.vcxproj">
+      <Project>{795CD157-620D-35A7-B511-04FDFBA1153C}</Project>
+      <Name>problem_55</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter06\problem_56\problem_56.vcxproj">
+      <Project>{6E77D9AF-DF70-3EC2-93E1-EF748EEB5F95}</Project>
+      <Name>problem_56</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter06\problem_57\problem_57.vcxproj">
+      <Project>{277DBA10-9C61-30E4-83FC-A4DCD47929B7}</Project>
+      <Name>problem_57</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter06\problem_58\problem_58.vcxproj">
+      <Project>{E9CF733D-3166-37CE-BB26-8D3253236912}</Project>
+      <Name>problem_58</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter06\problem_59\problem_59.vcxproj">
+      <Project>{72F3D9F7-BE4A-3599-8AC6-7182E0D8F6F4}</Project>
+      <Name>problem_59</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter06\problem_60\problem_60.vcxproj">
+      <Project>{8CB6423F-58BD-3DB0-80A2-C393E11C8490}</Project>
+      <Name>problem_60</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter07\problem_61\problem_61.vcxproj">
+      <Project>{6FD63ED7-A7CC-3ADA-9636-FDFB0FFA8D2D}</Project>
+      <Name>problem_61</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter07\problem_62\problem_62.vcxproj">
+      <Project>{3C3BE806-C8D9-3E5F-AC18-D9D577CA539A}</Project>
+      <Name>problem_62</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter07\problem_63\problem_63.vcxproj">
+      <Project>{A66A0CDE-DDDF-34CC-A906-DE9CA9D4E11C}</Project>
+      <Name>problem_63</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter07\problem_64\problem_64.vcxproj">
+      <Project>{89EF7D12-496F-374B-8081-3D417A752883}</Project>
+      <Name>problem_64</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter07\problem_65\problem_65.vcxproj">
+      <Project>{1A03D000-910C-3204-A164-98F486441E3C}</Project>
+      <Name>problem_65</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter07\problem_66\problem_66.vcxproj">
+      <Project>{8BCC1A87-CFA5-35C0-A251-6CDE5D1AA7E3}</Project>
+      <Name>problem_66</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter08\problem_67\problem_67.vcxproj">
+      <Project>{DEC0B577-25CD-3E06-9E2C-55089A35E67E}</Project>
+      <Name>problem_67</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter08\problem_68\problem_68.vcxproj">
+      <Project>{76583086-F981-36EB-A436-7433246A1A87}</Project>
+      <Name>problem_68</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter08\problem_69\problem_69.vcxproj">
+      <Project>{F234E79E-30F6-3F66-A892-1404685EA4CB}</Project>
+      <Name>problem_69</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter08\problem_70\problem_70.vcxproj">
+      <Project>{8F13AD4F-F821-3EC2-85DC-4BB1F98D97F9}</Project>
+      <Name>problem_70</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter08\problem_71\problem_71.vcxproj">
+      <Project>{16DA5786-23E6-3228-A454-65D2ADB9F381}</Project>
+      <Name>problem_71</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter08\problem_72\problem_72.vcxproj">
+      <Project>{C5B20BB3-6A6A-3D18-BE8B-43C78B19002B}</Project>
+      <Name>problem_72</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter09\problem_73\problem_73.vcxproj">
+      <Project>{DDFF5E9B-E6FC-326D-A6FA-86326F32DC5E}</Project>
+      <Name>problem_73</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter09\problem_74\problem_74.vcxproj">
+      <Project>{5D7BCE67-E42B-3DE2-9A1C-3B0A401335ED}</Project>
+      <Name>problem_74</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter09\problem_75\problem_75.vcxproj">
+      <Project>{843DB46F-DBF0-3762-9617-1A0336A692F1}</Project>
+      <Name>problem_75</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter09\problem_76\problem_76.vcxproj">
+      <Project>{ED8D6FD1-1ABF-3723-A277-91689D41DE86}</Project>
+      <Name>problem_76</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter09\problem_77\problem_77.vcxproj">
+      <Project>{1BF86448-DA52-3B01-B731-1EAD6CF2BF70}</Project>
+      <Name>problem_77</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter09\problem_78\problem_78.vcxproj">
+      <Project>{A6E4C071-F9C5-3346-9F0E-5543FAD446A8}</Project>
+      <Name>problem_78</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter10\problem_79\problem_79.vcxproj">
+      <Project>{8024D622-31EF-3CDD-A8B5-B8E80131D020}</Project>
+      <Name>problem_79</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter10\problem_80\problem_80.vcxproj">
+      <Project>{AB8BBF2C-D3E4-3BA8-9C03-F15CBD171746}</Project>
+      <Name>problem_80</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter10\problem_81\problem_81.vcxproj">
+      <Project>{1BD97A17-7EA3-37D7-9839-B9D5439E0C21}</Project>
+      <Name>problem_81</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter10\problem_82\problem_82.vcxproj">
+      <Project>{84928611-DF61-3BE2-A76B-0A60C103F487}</Project>
+      <Name>problem_82</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter10\problem_83\problem_83.vcxproj">
+      <Project>{5FE11677-A23F-3403-A313-E74FAB71F437}</Project>
+      <Name>problem_83</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter10\problem_84\problem_84.vcxproj">
+      <Project>{AF871238-6ABF-3208-BD4D-1F84EF404465}</Project>
+      <Name>problem_84</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter10\problem_85\problem_85.vcxproj">
+      <Project>{C59A48A4-CEF9-3EDC-BCD7-E242DF4DD610}</Project>
+      <Name>problem_85</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter10\problem_86\problem_86.vcxproj">
+      <Project>{658392BF-F2B3-30AB-93EB-AD19DFE83BCA}</Project>
+      <Name>problem_86</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter10\problem_87\problem_87.vcxproj">
+      <Project>{870D1718-D139-34BF-801C-05D89D0DD59F}</Project>
+      <Name>problem_87</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter11\problem_88\problem_88.vcxproj">
+      <Project>{94A9007D-A360-3C11-85E0-9C9FD14A282B}</Project>
+      <Name>problem_88</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter11\problem_89\problem_89.vcxproj">
+      <Project>{605E0A88-C57C-3C86-8599-43A2DF6FDBF3}</Project>
+      <Name>problem_89</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter11\problem_90\problem_90.vcxproj">
+      <Project>{260A9269-3315-3345-8A1E-F882FEEEAABE}</Project>
+      <Name>problem_90</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter11\problem_91\problem_91.vcxproj">
+      <Project>{8A0612D8-52E0-363B-994F-EDFF1A22D318}</Project>
+      <Name>problem_91</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter11\problem_92\problem_92.vcxproj">
+      <Project>{DD635F98-7568-31F9-92E4-59B801C12E1C}</Project>
+      <Name>problem_92</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter11\problem_93\problem_93.vcxproj">
+      <Project>{3A67C1BA-A803-3A2F-8129-E613A6A9475D}</Project>
+      <Name>problem_93</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter11\problem_94\problem_94.vcxproj">
+      <Project>{BA58DA6F-2228-3C7C-93A8-5D44784C4E81}</Project>
+      <Name>problem_94</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter12\problem_95\problem_95.vcxproj">
+      <Project>{A4D4275C-7E38-3408-B03B-AC3A77ADDB2D}</Project>
+      <Name>problem_95</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter12\problem_96c\problem_96c.vcxproj">
+      <Project>{BCD564E6-C07D-3A7F-8127-AA8F84EC07DE}</Project>
+      <Name>problem_96c</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter12\problem_96s\problem_96s.vcxproj">
+      <Project>{D074FF6E-2A2F-3F88-8147-EF80065CB599}</Project>
+      <Name>problem_96s</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter12\problem_97\problem_97.vcxproj">
+      <Project>{B4CCF14D-C89A-3A6E-878E-E21EAEBE21C4}</Project>
+      <Name>problem_97</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter12\problem_98\problem_98.vcxproj">
+      <Project>{54A50489-1C72-3C88-9A14-4EB00C5EB6D3}</Project>
+      <Name>problem_98</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter12\problem_99\problem_99.vcxproj">
+      <Project>{1E04BA82-63CE-32DF-8A7D-5B88644F755A}</Project>
+      <Name>problem_99</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\Chapter12\problem_9a\problem_9a.vcxproj">
+      <Project>{672EFF2C-D8A4-399D-9E8E-59A2FF8EC0AB}</Project>
+      <Name>problem_9a</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\build\libs\ZipLib\extlibs\zlib\zlib.vcxproj">
+      <Project>{CD71DAE4-654B-3EB4-A171-9827F6F9E421}</Project>
+      <Name>zlib</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

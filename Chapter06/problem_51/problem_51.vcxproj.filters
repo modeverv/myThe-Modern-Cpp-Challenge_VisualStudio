@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\Chapter06\problem_51\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\is40701.ITEC\Desktop\The-Modern-Cpp-Challenge-master\Chapter06\problem_51\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{81014E01-CB4E-3500-9569-F5F89E1849BD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
